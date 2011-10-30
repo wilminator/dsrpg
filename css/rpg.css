@@ -1,0 +1,5 @@
+div.text 		{height:26px; font-size:12pt}
+div.center 		{height:26px; font-size:12pt ; text-align:center}
+div.right 		{height:26px; font-size:12pt ; text-align:right}
+
+div.audio       {visibility:hidden}

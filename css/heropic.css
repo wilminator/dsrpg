@@ -1,0 +1,4 @@
+div.hero		{position:absolute; left:-800px; z-Index:101; border:hidden 2px}
+
+div.group		{position:absolute; border:8px solid #000080; background-color:#000000; color:white; font:32px serif,courier bold; left:0px; width:32px; height:32px; z-Index:240; text-align:center; vertical-align:middle}
+

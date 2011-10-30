@@ -1,0 +1,9 @@
+div.equipwindow	{position:absolute; top:50px; left:50px; width:700px; height:500px; z-Index:220; border:solid 2px #6060a0; background-color:black; background-repeat:no-repeat; background-position:center; color:white; overflow:hidden; visibility:hidden}
+div.equiprow 	{position:absolute; width:296px; height:38px; border:2px solid #800000}
+img.equippic	{position:absolute; width:100px; height:38px}
+div.equipitem  	{position:absolute; left:100px; width:200px; height:38px}
+img.equipnext   {position:absolute; left:50px; top:400px; width:46px; height:46px; border:2px solid black}
+img.equipok     {position:absolute; left:0px; top:400px; width:46px; height:46px; border:2px solid black}
+img.equipcanc   {position:absolute; left:0px; top:450px; width:96px; height:46px; border:2px solid black}
+div.equipdesc   {position:absolute; left:101px; top:400px; width:486px; height:92px; border:4px solid blue}
+

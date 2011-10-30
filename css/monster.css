@@ -1,0 +1,8 @@
+div.monster		{position:absolute; left:-800px; z-Index:1; border:hidden 2px}
+div.damagebar 	{position:absolute; top:-20px; z-Index:200; visibility:hidden}
+div.mhpbarback 	{position:absolute; top:  0px; left:  0px; height:15px; width:100px; font-size:1px; border-top:2px solid #800000; border-bottom:2px solid #800000}
+div.mhpbar	 	{position:absolute; top:  0px; left:  0px; height:17px; font-size:1px; background-color:#ff8080; color:black}
+div.mhp	 		{position:absolute; top: -2px; left:  0px; height:22px; width:100px; font-size:12pt; font-family:"Comic Sans MS",serif; text-align:center}
+
+div.egroup		{position:absolute; border:8px solid #800000; background-color:#000000; color:white; font:32px serif,courier bold; left:0px; width:32px; height:32px; z-Index:240; text-align:center; vertical-align:middle}
+

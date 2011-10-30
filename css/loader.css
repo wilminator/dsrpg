@@ -1,0 +1,4 @@
+div.waitbar     {width:792px; height:40px; background-color:black; border:solid 2px white}
+div.waitdone    {position:absolute;height:40px; background-color:blue}
+div.waitnumb    {position:absolute;width:100%;text-align:center}
+

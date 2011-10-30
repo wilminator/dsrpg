@@ -1,0 +1,14 @@
+html			{background-color:black; color:white}
+div.screen		{position:absolute; top:0px; left:0px; background-position:top left; background-repeat:no-repeat; top: 0px; left: 0px; width:800px; height:580px; max-width:800px; max-height:580px; font:normal 14pt courier,monospace; color:white; overflow:hidden; border:2px solid white; visibility:hidden}
+
+div.msg	    	{position:absolute; top:  0px; left:700px; height:32px; width:100px; z-Index:255}
+
+div.blood	 	{position:absolute; top:  0px; left:-16px; height:16px; width: 16px; visibility:hidden; z-Index:230}
+div.damage 		{position:absolute; top:  0px; left:-200px; height:16px; width: 160px; visibility:hidden; z-Index:231; font:24pt "Comic Sans MS",serif,courier bold; text-align:center}
+
+div.submit      {position:absolute; top:532px; left:730px; z-Index:240}
+input.commit    {position:absolute; top:0px; left:0px; height:24px; width:70px}
+
+div.cancel      {position:absolute; top:408px; left:0px; z-Index:240; visibility:hidden}
+input.cancel    {position:absolute; top:0px; left:0px; height:32px; width:100px}
+
