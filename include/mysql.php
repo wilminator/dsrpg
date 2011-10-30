@@ -7,7 +7,7 @@ function mysql_do_connect($user=false, $pass=false)
     {
     if(is_null($GLOBALS['__MYSQL_CONNECTION']))
         {
-        $data = file(INCLUDE_DIR.'mysql.cfg');
+        $data = array_map('trim',file(INCLUDE_DIR.'mysql.cfg'));
         $host=$data[1];
         if (!$user)
             $user=$data[2];

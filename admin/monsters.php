@@ -12,11 +12,14 @@ require_once INCLUDE_DIR.'effects.php';
 $monster_store=new MONSTER_STORE;
 $monsters=&$monster_store->get_all_monsters();
 
-if ($_GET['sort']=='name')
-    uasort($monsters, create_function('$a,$b','return strcmp($a->name, $b->name);'));
-
-if ($_GET['sort']=='pxp')
-    uasort($monsters, create_function('$a,$b','return $a->pxp - $b->pxp;'));
+if (key_exists('sort',$_GET))
+    {
+    if ($_GET['sort']=='name')
+        uasort($monsters, create_function('$a,$b','return strcmp($a->name, $b->name);'));
+    
+    if ($_GET['sort']=='pxp')
+        uasort($monsters, create_function('$a,$b','return $a->pxp - $b->pxp;'));
+    }
 
 echo "
 <center>
